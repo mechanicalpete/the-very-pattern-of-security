@@ -5,6 +5,8 @@ This repository contains the reference template used in the [The Very Pattern of
 1. Complete the five exports below; and
 2. Run the script.
 
+**Remember!** Good cloud hygiene is very important. So always clean-up after yourself and run this when you're ready to delete the stack: `aws --profile "${MY_AWS_PROFILE}" cloudformation delete-stack --stack-name "${MY_STACK_NAME}"`
+
 Pull-requests, questions and comments welcome!
 
 ```bash

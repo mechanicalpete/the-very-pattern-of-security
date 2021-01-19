@@ -49,12 +49,6 @@ Resources:
             Effect: Allow
             Action: ['sts:AssumeRole']
             Resource: !GetAtt Role.Arn
-            # Condition:
-            #   StringLike:
-            #     'sts:RoleSessionName':
-            #       !Ref ParamRoleSessionName
-            #     'sts:ExternalId':
-            #       !Ref ParamExternalId
       PolicyName: !Sub '${ParamBaseName}UserPolicy'
       Users:
         - !Ref User

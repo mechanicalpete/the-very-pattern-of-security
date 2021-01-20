@@ -1,6 +1,6 @@
 # The Very Pattern of Security
 
-This repository contains the reference template used in the [The Very Pattern of Security](TODO:) blog post. To run it:
+This repository contains the reference template used in the [The Very Pattern of Security](https://www.surrealsoftware.com.au/posts/2021-02-04.html) blog post. To run it:
 
 1. Complete the five exports below; and
 2. Run the script.
